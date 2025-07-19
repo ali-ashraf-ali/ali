@@ -18,8 +18,8 @@ document.addEventListener('click', (event) => {
 
 window.addEventListener('DOMContentLoaded', () => {
   const particleContainer = document.getElementById('particleContainer');
-  const numBubbles = 0;
-  const numArabicChars = 0;
+  const numBubbles = 150;
+  const numArabicChars = 50;
   const arabicCharacters = ['💚','💙','💯', '💯', '💯​', '💯​','💜​','🩵','🖤','❤️​'];
 
   function createParticle(type) {
