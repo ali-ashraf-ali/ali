@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const particleContainer = document.getElementById('particleContainer');
   const numBubbles = 150;
   const numArabicChars = 0;
-  const arabicCharacters = ['💚','💙','💯', '💯', '💯​', '💯​','💜​','🩵','🖤','❤️​'];
+  const arabicCharacters = [];
 
   function createParticle(type) {
     const particle = document.createElement('div');
